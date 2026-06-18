@@ -1,6 +1,5 @@
 """
 Each letter in the alphabet is mapped to a unique substitute letter.
-The same key is used for both encoding and decoding.
 """
 
 import random
