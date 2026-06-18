@@ -88,7 +88,7 @@ if __name__ == "__main__":
     custom_key = key_from_string(custom_key_str)
     display_key(custom_key)
 
-    sample = "The quick brown fox jumps over the lazy dog."
+    sample = "The quick brown fox jumps over the lazy dog"
     encoded = encode(sample, custom_key)
     decoded2 = decode(encoded, custom_key)
     print(f"\n📝 Original : {sample}")
